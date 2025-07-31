@@ -1,0 +1,20 @@
+features:
+    Add_contact
+    View_contact
+    Update_contact
+    Search_contact
+    Delete_contact
+    Exit
+
+Steps:
+    create a loop:
+        Access the already created "contacts.txt" file 
+        Ask the user what command(feature) they wish to use
+        perform the command
+        When the user is ready the user would put "." to terminate process
+
+If Add_contact or Update_contact:
+    Ask for:
+        1. First Name
+        2. Last Name
+        3. Number

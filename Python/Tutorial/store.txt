@@ -1,0 +1,21 @@
+class Mammal:
+    def walk(self):
+        print("walk")
+
+
+class Dog(Mammal):
+    def bark(self):
+        print("woof")
+
+
+class Cat(Mammal):
+    def be_annoying(self):
+        print("annoying")
+
+
+class Person(Mammal):
+    # constructor
+    def __init__(self, name):
+        self.name =  name
+    def talk(self):
+        print(f"I am {self.name}")
